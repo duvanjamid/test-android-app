@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_camara" android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Solicitar pedido" />
+        <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Pedidos vigentes" />
+        <item android:id="@+id/nav_slideshow" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Historico" />
+        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+    <item android:title="Perfil">
+        <menu>
+            <item android:id="@+id/nav_profile" android:icon="@android:drawable/ic_menu_share"
+                android:title="Mi perfil" />
+            <item android:id="@+id/nav_logout" android:icon="@android:drawable/ic_menu_send"
+                android:title="Salir" />
+        </menu>
+    </item>  <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Términos y condiciones" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Acerca de" />
+        </menu>
+    </item>
+
+
+</menu>
